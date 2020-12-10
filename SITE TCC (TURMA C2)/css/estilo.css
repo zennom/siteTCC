@@ -1,0 +1,266 @@
+html, body{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+.cabecalho {
+    background-color: #011627;
+	width: 100%;
+	height: 140px;
+}
+
+.logo img{
+    padding-top: 20px;
+    width: 350px;
+	height: 122px;
+	opacity: 100%;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #FDCA40;
+}
+
+#menu {
+    padding-top: 0.5mm;
+    padding-bottom: 0mm;
+    text-align: center;
+	font-size: 18px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu li {
+    padding: 5px;
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 18px;
+    text-decoration: none;
+    color: #f0f3f5;
+	font-family: "Open Sans";;
+} 
+
+#menu ul li a:hover {
+    text-decoration: none;
+    color: #FDCA40;
+}
+
+.mvv{
+	margin-top:20px;
+	text-align: center;
+}
+
+.fotos-mvv{
+	float: left;
+	width: 300px;
+	padding:30px; 
+}
+
+.fotos-mvv:hover { 
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3); 
+}
+
+.fotos-mvv p {
+	display: inline-block;
+	text-align: justify;
+	padding:100px;
+}
+
+.fotos-mvv img {
+	width:200px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+@font-face{
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";
+}
+
+.clear{
+	clear: both;
+}
+
+.center{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container-banner{
+	width: 100%;
+	padding:0 2%;
+	height: 557px;
+	background-image:url(../imagens/ladotexto.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.container-banner > .center{
+	height: 100%;
+}
+
+.form{
+	padding:15px;
+	width: 800px;
+	height: calc(100% + 30px);
+	float: right;
+	position: relative;
+	top:30px;
+	border-width: 12px;
+	border-color: #011627;
+	border-style: solid;
+	background-color: white;
+	background-clip:padding-box;
+	/*background-origin tem o mesmo conceito porém serve para imagens.*/
+}
+
+.form h2{
+	font-weight: normal;
+	color: black;
+	font-size: 21px;
+}
+
+.input-container{
+	margin-top:20px;
+}
+
+.input-container span{
+	display: inline-block;
+	width: 100%;
+	color: #000000;
+	font-size: 17px;
+}
+
+.form p{
+	display: inline-block;
+	width: 100%;
+	color: #000000;
+	font-size: 17px;
+	margin:20px 0;
+}
+
+.input-container input[type=text]{
+	margin-top:8px;
+	width: 745px;
+	height: 40px;
+	border:1px solid #011627;
+}
+
+.form .input-submit-container{
+	text-align: center;
+}
+
+.form input[type=submit]{
+	color: white;
+	font-size: 25px;
+	width: 280px;
+	height: 56px;
+	display: inline-block;
+	background-color: #040d3dc2;
+	border-top:0;
+	border-right: 0;
+	border-left: 0;
+	cursor: pointer;
+	border-bottom: 5px solid #011627;
+}
+
+.form input[type=submit]:hover{
+	background-color: #011627;
+}
+
+.container-banner2{
+	width: 100%;
+	padding:0 2%;
+	height: 557px;
+	background-image:url(../imagens/trabalhefoto.png);
+	background-size: cover;
+	background-position: center;
+}
+
+p {
+	position: relative;
+}
+
+#rodape
+{      
+    clear: both;
+    height: 90px;      
+    color: #011627;
+    font-size: 15px;
+    clear:both;
+    padding:20px;
+    background:#011627;
+    color:white;
+}
+
+#rodape span {
+  float: left;
+  width:45%;
+  line-height: 60px;
+  margin-top: 15px;
+  margin-left: 10px; 
+}
+
+.icones-sociais ul {
+
+	display: inline-block;
+	height: inherit;
+	width: 75%;
+	margin: 0;
+	line-height: 60px;
+	
+  }
+  .icones-sociais li
+  {
+	  display: inline-block;
+	  margin-left: 5px;
+	  margin-top: 5px;
+	  width: 40px;
+	  height: inherit;
+  }
+
+#h1sobre {
+	text-align: center;
+}
+
+.sobrenos{
+	text-align: center ;
+}
+
+body{
+	background-image: url(../imagens/background.jpg);
+}
+
+article {
+	float: center;
+	text-align: center;
+}
+
+#textoinicial {
+	font-size: 32px;
+}
+
+.sobrenos {
+  text-align: center;
+}
